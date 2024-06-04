@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AnimalsCage {
     @Autowired
-    private Timer timer = new Timer();
+    private Timer timer;
 
     @Autowired
     @Qualifier("dog")
